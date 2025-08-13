@@ -1,48 +1,33 @@
 body {
-  margin: 100px;
-  padding: 0px;
+  margin-left: 200px;
+  margin-top: 70px;
+  margin-right: 200px;
 }
 
-h1 {
-  color: brown;
-  margin: 0px;
-  border: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
-  color: black;
-  padding: 0;
-  background-color: darkgray;
-}
-
-.four {
-  position: absolute;
-  background-color: red;
-  color: white;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 80px;
-  left: 60px;
-}
 .one {
-  border: solid;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 300px;
 }
-
-.two {
+h1 {
+  position: relative;
+  left: 4.5px;
+  width: 800px;
+  top: 62px;
   text-align: center;
-  margin-top: 10px;
-  text-decoration: none;
-  padding: 20px;
-  margin: 0px;
-  color: white;
-  background-color: black;
-  cursor: pointer;
-  border: solid;
+  margin-top: 0;
+  background-color: bisque;
 }
-
-.two:hover {
-  text-decoration: underline;
-  background-color: white;
-  color: black;
+img {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  bottom: 157px;
+  left: 204.5px;
 }
 
 .ab {
@@ -84,11 +69,79 @@ h1 {
 
   background-color: brown;
 }
-
-.three {
-  display: inline-flex;
+h2 {
+  position: relative;
+  top: 130px;
+  right: 80px;
 }
 
-.fg:last-child {
-  margin-right: 0px;
+.two {
+  text-align: center;
+  justify-content: center;
+  padding-top: 29px;
+  width: 805px;
+  height: 35px;
+  position: absolute;
+  top: 359px;
+  right: -29px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 3px;
+}
+
+p {
+  position: relative;
+  top: 55px;
+  right: 10px;
+  bottom: 10px;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+a {
+  position: relative;
+  top: 44px;
+  right: 45px;
+}
+.pag1 {
+  position: relative;
+  left: 90px;
+  bottom: 25px;
+}
+h3 {
+  position: relative;
+  left: 250px;
+  bottom: 160px;
+}
+
+ul {
+  position: relative;
+
+  bottom: 180px;
+  left: 280px;
+  margin-right: 60px;
+}
+
+.ten {
+  margin-right: 20px;
+}
+
+.four {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  right: 415px;
+  top: 60px;
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  color: white;
 }
